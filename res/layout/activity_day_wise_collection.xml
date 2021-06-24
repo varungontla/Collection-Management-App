@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DayWiseCollectionActivity">
+
+    <include layout="@layout/activity_toolbar" />
+
+
+    <TextView
+        android:id="@+id/Day_headtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Day wise collection"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:fontFamily="@font/roboto"/>
+    <TextView
+        android:id="@+id/daywise_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Select date to view collection on that date"
+        android:textSize="20dp"
+        android:fontFamily="@font/antic"/>
+
+    <ListView
+        android:id="@+id/LV_dayWise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    </ListView>
+
+</LinearLayout>

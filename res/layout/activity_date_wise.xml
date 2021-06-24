@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DateWiseActivity">
+    <include layout="@layout/activity_toolbar" />
+
+
+    <TextView
+        android:id="@+id/Date_headtext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Loading..."
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:fontFamily="@font/roboto"/>
+
+    <ListView
+        android:id="@+id/LV_dateWise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    </ListView>
+
+</LinearLayout>

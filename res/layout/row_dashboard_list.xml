@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_GroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Name"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:fontFamily="@font/roboto"/>
+        <TextView
+            android:id="@+id/tv_NoOfBills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No of Bills"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

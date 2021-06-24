@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Gsoft.project">
+
+    <uses-permission android:name = "android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/sd"
+        android:label="SatishDistributors"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DateWiseActivity" />
+        <activity android:name=".DayWiseCollectionActivity" />
+        <activity android:name=".BillEdit" />
+        <activity android:name=".AddBill" />
+        <activity android:name=".CollectionActivity" />
+        <activity android:name=".ShopBills" />
+        <activity android:name=".PhoneNoVerify" />
+        <activity android:name=".ShopDetails" />
+        <activity android:name=".AddShopDetails" />
+        <activity android:name=".UserDashboard" />
+        <activity android:name=".AddCategory" />
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

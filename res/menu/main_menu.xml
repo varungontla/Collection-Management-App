@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"/>
+
+    </group>
+
+    <item android:title="@string/collection">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/day_wise_collection"
+                    android:title="@string/day_wise_collection"/>
+                <item
+                    android:id="@+id/recievables"
+                    android:title="@string/pending_bills"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+    <item android:title="@string/profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/Logout"
+                    android:title="@string/logout" />
+                <item
+                    android:id="@+id/Profile"
+                    android:title="@string/profile" />
+
+            </group>
+
+        </menu>
+
+    </item>
+    <item android:title="@string/communication">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_share"
+                    android:title="@string/share_distributor_sassist" />
+                <item
+                    android:id="@+id/menu_rate_us"
+                    android:title="@string/rate_us"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
